@@ -1,0 +1,275 @@
+/*
+For larger text:
+font-family: 'Crimson Text', serif;
+
+For smaller text:
+font-family: 'Open Sans', sans-serif;
+*/
+
+/*Common elements*/
+body {
+	font-size: 95%;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	background: indigo url("img/purplebackground.jpg") no-repeat fixed top center;
+	padding: 0;
+	margin: 0;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+}
+h1 {
+	font-family: 'Crimson Text', serif;
+	color: pink;
+	font-size: 3.7em;
+	padding: 0;
+	margin: -0.1em 0 0 0;
+}
+h2 {
+	color: deeppink;
+	font-size: 2em;
+	padding: 0px;
+	margin: 0.5em 0 0.35em 0
+}
+p {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	padding: 0px;
+	margin: 0.5em 0 0.35em 0;
+}
+ol {
+	font-size: 1.3em;
+	margin: 0 0 0 2em;
+	padding: 0 0 0 0.8em;
+}
+ol li {
+	margin: 0;
+	padding: 0 0 .2em;
+}
+a, a:visited {
+	color: orchid;
+}
+a:hover {
+	color: deeppink;
+}
+hr {
+	padding: 0;
+	margin: 1.5em 1.5em .75em .5em;
+}
+.contentWrapper {
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 0 8px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+/*Header*/
+header {
+	padding: 1.5em 0 0.5em;
+	margin: 0 0 2em;
+	background: purple url(img/biflagcover.jpg) center 0px;
+}
+header h1 {
+	font-size: 4.4em;
+	letter-spacing: -0.025em;
+	margin: 0;
+	text-shadow: 1px 2px 5px black;
+	text-transform: uppercase;
+}
+header h2 {
+	font-size: 3em;
+	font-family: 'Crimson Text', serif;
+	color: indigo;
+	margin: -.4em 0 0 1em;
+	letter-spacing: 0.02em;
+}
+/*Nav Bars*/
+nav {
+	color: black;
+	font-size: 1.1em;
+	letter-spacing: 0em;
+	padding: 1em 1em 0.5em;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li {
+	/* Make the list items be horizontal, not vertical. */
+	display: inline-block;
+	margin: 0;
+}
+nav li a, nav li a:visited {
+	/* Remove the underline. */
+	text-decoration: none;
+	color: pink;
+	padding: 0.2em 0.8em;
+}
+nav li a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: rgba(38, 3, 57, .6);
+}
+nav#utilityMenu {
+	float: right;
+	margin: -1.5em 0 0 0;
+	padding: 0.35em;
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 1.3em;
+}
+nav#utilityMenu li {
+	padding: 0 0.25em 0 0.2em;
+	vertical-align: middle;
+}
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+	color: indigo;
+	display: inline-block;
+	text-decoration: none;
+	height: 1.3em;
+	padding: 0.5em;
+	margin: -0.4em 0 0 0;
+	font-size: 0.8em;
+}
+nav#utilityMenu ul li.acctNav a:hover {
+	background: rgba(252, 251, 243, 0.7);
+}
+nav#utilityMenu li a, nav#utilityMenu li a:visited {
+	padding: 0;
+}
+nav#utilityMenu li a:hover {
+	background-color: transparent;
+}
+nav#utilityMenu ul li input#search {
+	vertical-align: middle;
+	margin: 0 0 0 1em;
+}
+
+/*Sidebar Section*/
+section#sidebar {
+	width: 20%;
+	float: right;
+	position: relative;
+	display: block;
+	background-color: rgba(0, 0, 139, 0.5);
+	margin: 0.5em 0 0.5em 0.5em;
+	padding: 1em 1.5em 2em 1.5em;
+	border-left: pink solid 5px;
+	color: white;
+	border-radius: 15px;
+}
+section#sidebar h1 {
+	font-size: 3.2em;
+}
+
+/*Main Section*/
+section#main {
+	background-color: rgba(37, 3, 57, 0.7);
+	margin: 0 0 2em 2em;
+	padding: 1em 0.2em 1em;
+	display: inline-block;
+	border-radius: 2em;
+	box-shadow: 1px 1px 15px black;
+	width: 69%;
+}
+section#main h1 {
+	padding: 0 0 0 8px;
+}
+#main img {
+	border-radius: 7px;
+}
+#bisexuWhale {
+	background-color: white;
+	border-radius: 7px;
+}
+button {
+	color: deeppink;
+	background-color: rgba(37, 3, 57, 0.7);
+	display: inline-block;
+	margin: 0.4em 0.75em 0 0;
+	padding: 0.3em 0.6em;
+	text-transform: uppercase;
+	border-color: pink;
+	font-size: 0.8em;
+}
+button:hover {
+	color: white;
+	background-color: rgba(255, 20, 147, 0.8);
+}
+section div.panel {
+	float: left;
+	position: relative;
+	width: 240px;
+	margin: 0 0.5em 2em 0.5em;
+	padding: 1em;
+	background-color: rgba(37, 3, 57, 0.7);
+	border: pink solid 1px;
+	border-radius: 0.6em;
+}
+section div.panel img.shirtType {
+	width: 100%;
+}
+
+/*Clear*/
+div.clear {
+	clear: both;
+	font-size: 1%
+}
+
+/*Footer*/
+footer {
+	background-color: rgba(255, 20, 147, 0.8);
+	height: 25px;
+	font-size: 12px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding: 1.5em 2em;
+	clear: both;
+}
+footer ul#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 0.6em;
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+	padding: 0 0.7em 0 0;
+	margin: 0;
+}
+/*
+footer ul li::before {
+	content: "| ";
+	padding-right: 0.7em;
+}
+*/
+footer a, footer a:visited {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 5px;
+	color: indigo;
+	font-weight: bold;
+	text-decoration: none;
+}
+footer a:hover {
+	color: indigo;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
