@@ -1,89 +1,110 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 		<link rel="stylesheet" href="css/profilepagestyles.css">
+		<!-- jQuery -->
+		<script
+ 		 src="https://code.jquery.com/jquery-3.2.1.min.js"
+ 		 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ 		 crossorigin="anonymous"></script>
+ 		<!-- jQuery UI -->
+ 		<script
+		 src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+		 integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+		 crossorigin="anonymous"></script>
 		<title>Caitlyn Tetmeyer's Profile Page</title>
 	</head>
 
 	<body>
-<header>
-	<nav>
-		<div class="container">
-	  <h1 id="brand">Hi, I'm Caitlyn</h1>
-		<ul>
-			<li><a href="#city">My City</a></li>
-	    <li><a href="#diet">My Diet</a></li>
-	  	<li><a href="#hair">My Hair</a></li>
-	  	<li><a href="project1/storeapp.html">Store App</a></li>
-		</ul>
-	</div>
-	</nav>
-</header>
+		<header>
+			<nav>
+				<div class="container">
+			  		<h1 id="brand"></h1>
+					<ul>
+				  		<li><a href="project1/storeapp.html">Store App</a></li>
+				  		<li><a href="#">Thing 2</a></li>
+				   		<li><a href="#">Thing 3</a></li>
+				  		<li><a href="#">Thing 4</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
 
-<section class="clearfix" id="hero">
-	<img class="purple-blond-headshot" src="images/purple-blond-headshot.jpg" alt="Picture of me, Caitlyn">
-	<h2>I'm Caitlyn</h2>
-	<h2>from Indiana</h2>
-</section>
-
-<section class="main-content clearfix">
-  <div class="container">
-    <section class="column">
-			<!--<h3>About Me</h3>-->
-		  <div class="column-img city-img" id="city">
-		</div>
-			<h4>My City</h4>
-			<p>I live in Indianapolis.</p>
-			<!--<a href="city.html" class="btn">See my city.</a>-->
-    </section>
-
-		<section class="column">
-			<div class="column-img diet-img" id="diet">
-			</div>
-
-				<h4>My Diet</h4>
-				<p>My diet is flexitarian.</p>
-				<!--<a href="diet.html" class="btn">See my diet.</a>-->
+		<section class="clearfix" id="hero">
+			<img class="purple-blond-headshot" src="images/pro-pic.png" alt="Picture of me, Caitlyn">
+			<h1>Caitlyn Tetmeyer</h1>
+			<h2>Web Developer</h2>
 		</section>
 
-		<section class="column">
-      <div class="column-img hair-img" id="hair">
-			</div>
-				<h4>My Hair</h4>
-				<p>My hair changes colors.</p>
-				<!--<a href="hair.html" class="btn">See my hair.</a>-->
-		</section>
-	</div>
-</section>
+		<section class="main-content clearfix">
+		  <div class="container">
+		    <section class="column">
+					<!--<h3>About Me</h3>-->
+				  <div class="column-img city-img" id="city">
+				</div>
+					<h4>My City</h4>
+					<p>I live in Indianapolis.</p>
+					<!--<a href="city.html" class="btn">See my city.</a>-->
+		    </section>
 
-<div class="center-social">
-<footer class="clearfix container"  id="social">
-	<ul>
-		<li>
-			<a class="twitter" href="https://twitter.com/CaitlynTetmeyer" target="_blank" title="Caitlyn Tetmeyer's Twitter">
-				<i class="fa fa-twitter" aria-hidden="true"></i>
-			</a>
-		</li>
-		<li>
-      <a href="https://www.facebook.com/tetmeyerc" target="_blank" title="Caitlyn Tetmeyer's Facebook">
-				<i class="fa fa-facebook" aria-hidden="true"></i>
-			</a>
-    </li>
-		<li>
-			<a href="https://www.linkedin.com/in/caitlyntetmeyer/" target="_blank" title="Caitlyn Tetmeyer's LinkedIn">
-				<i class="fa fa-linkedin" aria-hidden="true"></i>
-			</a>
-		</li>
-		<li>
-			<a href="https://www.instagram.com/caitlyntetmeyer/" target="_blank" title="Caitlyn Tetmeyer's Instagram">
-				<i class="fa fa-instagram" aria-hidden="true"></i>
-			</a>
-		</li>
-	</ul>
-</footer>
+				<section class="column">
+					<div class="column-img diet-img" id="diet">
+					</div>
+
+						<h4>My Diet</h4>
+						<p>My diet is flexitarian.</p>
+						<!--<a href="diet.html" class="btn">See my diet.</a>-->
+				</section>
+
+				<section class="column">
+		      <div class="column-img hair-img" id="hair">
+					</div>
+						<h4>My Hair</h4>
+						<p>My hair changes colors.</p>
+						<!--<a href="hair.html" class="btn">See my hair.</a>-->
+				</section>
+			</div>
+		</section>
+
+		<div class="center-social">
+		<footer class="clearfix container"  id="social">
+			<ul>
+				<li>
+					<a class="twitter" href="https://twitter.com/CaitlynTetmeyer" target="_blank" title="Caitlyn Tetmeyer's Twitter">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+				</li>
+				<!--
+				<li>
+		      <a href="https://www.facebook.com/tetmeyerc" target="_blank" title="Caitlyn Tetmeyer's Facebook">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+		    </li>
+		    -->
+				<li>
+					<a href="https://www.linkedin.com/in/caitlyntetmeyer/" target="_blank" title="Caitlyn Tetmeyer's LinkedIn">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/caitlyntetmeyer/" target="_blank" title="Caitlyn Tetmeyer's Instagram">
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</a>
+				</li>
+			</ul>
+		</footer>
+
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+ 	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+
+  	<!-- Insert link to the correct .js doc here: -->
+  	<script type="text/javascript" src="#"></script>
 
 </body>
