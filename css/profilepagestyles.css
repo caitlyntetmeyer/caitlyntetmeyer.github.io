@@ -25,7 +25,7 @@ nav {
   background: linear-gradient(to right, #0a093b 4%,#817FB2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a093b', endColorstr='#817FB2',GradientType=1 ); /* IE6-9 */
 }
-
+/*
 #brand {
   color: transparent;
   background-image: url('../images/purple-profile-pic.jpg');
@@ -36,7 +36,7 @@ nav {
   margin: 5px;
   border-radius: 50%;
 }
-
+*/
 .container {
   width: 1024px;
   margin: 0 auto;
@@ -200,6 +200,13 @@ img {
   }
   #hero {
     background-size: 180%;
+  }
+  nav {
+    height: 100px;
+    line-height: 0.1;
+  }
+  body {
+    padding-top: 100px;
   }
 }
 
