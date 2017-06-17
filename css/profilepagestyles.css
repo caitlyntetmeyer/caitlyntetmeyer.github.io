@@ -25,18 +25,7 @@ nav {
   background: linear-gradient(to right, #0a093b 4%,#817FB2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a093b', endColorstr='#817FB2',GradientType=1 ); /* IE6-9 */
 }
-/*
-#brand {
-  color: transparent;
-  background-image: url('../images/purple-profile-pic.jpg');
-  background-size: 100%;
-  height: 60px;
-  width: 60px;
-  float: left;
-  margin: 5px;
-  border-radius: 50%;
-}
-*/
+
 .container {
   width: 1024px;
   margin: 0 auto;
@@ -74,7 +63,7 @@ nav li a:hover {
 
 body {
   padding-top: 65px;
-  color: #C2F5E5;
+  /*color: #C2F5E5;*/
 }
 
 #hero {
@@ -154,15 +143,31 @@ h3 {
 h4 {
   font-size: 1.2em;
 }
-/*
 .center-social {
-  margin: auto 0;
+  max-width: 300px;
   text-align: center;
-  clear: both;
+  margin: 0 auto;
 }
-*/
+
+.form-inline {
+  text-align: left;
+  border: 2px solid #0A093B;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: snow;
+}
+
+form {
+  line-height: 20px;
+}
+
+form h3 {
+  font-size: 1.3em;
+}
 
 footer {
+  padding: 40px;
+  text-align: center;
   padding-bottom: 15px;
 }
 
