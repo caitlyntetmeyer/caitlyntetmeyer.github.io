@@ -3,10 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Connect CSS files -->
 		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 		<link rel="stylesheet" href="css/profilepagestyles.css">
+		<!-- <link rel="stylesheet" href="css/global.css"> -->
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 		<!-- jQuery -->
 		<script
  		 src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -34,7 +41,7 @@
 
 				  		<li><a href="jQueryFundamentals/ajaxfundamentals/jQueryFriendList/index.html">Friend List</a></li>
 
-				  		<li><a href="#">JavaScript Library</a></li>
+				  		<li><a href="https://github.com/caitlyntetmeyer?tab=repositories">JavaScript Library</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -93,21 +100,31 @@
 			</div>
 		</section>
 
-		<div class="center-social">
+	<div class="center-social">
 		<footer class="clearfix container"  id="social">
+		<!-- Contact Form -->
+		<form class="form-inline">
+			<h3>Contact Me</h3>
+		  <div class="form-group">
+		    <label for="inputEmail">Email address</label>
+		    <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+		  </div>
+		  
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox"> Receive Caitlyn's newsletter
+		    </label>
+		  </div>
+		  <button type="submit" class="btn btn-default">Submit</button>
+		</form>
+		<!-- Social Media Icons -->
 			<ul>
 				<li>
 					<a class="twitter" href="https://twitter.com/CaitlynTetmeyer" target="_blank" title="Caitlyn Tetmeyer's Twitter">
 						<i class="fa fa-twitter" aria-hidden="true"></i>
 					</a>
 				</li>
-				<!--
-				<li>
-		      <a href="https://www.facebook.com/tetmeyerc" target="_blank" title="Caitlyn Tetmeyer's Facebook">
-						<i class="fa fa-facebook" aria-hidden="true"></i>
-					</a>
-		    </li>
-		    -->
+
 				<li>
 					<a href="https://www.linkedin.com/in/caitlyntetmeyer/" target="_blank" title="Caitlyn Tetmeyer's LinkedIn">
 						<i class="fa fa-linkedin" aria-hidden="true"></i>
@@ -120,7 +137,7 @@
 				</li>
 			</ul>
 		</footer>
-
+	</div>
 	<script
   	src="https://code.jquery.com/jquery-3.2.1.min.js"
  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -130,3 +147,7 @@
   	<script type="text/javascript" src="#"></script>
 
 </body>
+
+
+		
+
