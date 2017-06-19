@@ -112,22 +112,32 @@ section.column {
   margin: 5px;
 }
 
-.city-img {
-  background-image: url("../images/indianapolis.jpg");
+.storeapp-img {
+  background-image: url("../images/storeapp.png");
   background-size: cover;
   min-width: 255px;
 }
 
-.diet-img {
-  background-image: url("../images/flexitarian.jpg");
+.monster-img {
+  background-image: url("../images/monster.png");
   background-size: cover;
-  //background-position: 0px -50px;
-  //background-repeat: no-repeat;
   min-width: 255px;
 }
 
-.hair-img {
-  background-image: url("../images/purple-haired-yoga.jpg");
+.apichallenge-img {
+  background-image: url("../images/cnn-logo.png");
+  background-size: cover;
+  min-width: 255px;
+}
+
+.friendlist-img {
+  background-image: url("../images/friendlist.png");
+  background-size: cover;
+  min-width: 255px;
+}
+
+.library-img {
+  background-image: url("../images/library.png");
   background-size: cover;
   min-width: 255px;
 }
@@ -154,7 +164,7 @@ h4 {
   border: 2px solid #0A093B;
   padding: 20px;
   border-radius: 15px;
-  background-color: snow;
+  background-color: white;
 }
 
 form {
