@@ -101,6 +101,7 @@ section.column {
 
 .column a {
   color: #C2F5E5;
+  text-decoration: none;
 }
 
 .column-img {
@@ -153,6 +154,7 @@ h3 {
 h4 {
   font-size: 1.2em;
 }
+
 .center-social {
   max-width: 300px;
   text-align: center;
@@ -176,6 +178,7 @@ form h3 {
 }
 
 footer {
+  margin: 50px;
   padding: 40px;
   text-align: center;
   padding-bottom: 15px;
@@ -198,6 +201,10 @@ footer li {
   padding-right: 10px;
   font-size: 2em;
   padding-top: 10px;
+}
+
+#icons {
+  margin: 10px;
 }
 /*
 .main-content {
