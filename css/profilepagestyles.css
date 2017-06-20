@@ -7,6 +7,7 @@
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #817FB2;
+    /*text-align: center;*/
 }
 
 nav {
@@ -19,11 +20,12 @@ nav {
   width: 100%;
   box-shadow: 0 1px 1px #0A093B;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a093b+4,a983e7+100 */
-  background: #0a093b; /* Old browsers */
-  background: -moz-linear-gradient(left, #0a093b 4%, #817FB2 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #0a093b 4%,#817FB2 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #0a093b 4%,#817FB2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*background: #0a093b; /* Old browsers */*/
+  /*background: -moz-linear-gradient(left, #0a093b 4%, #817FB2 100%); /* FF3.6-15 */*/
+  /*background: -webkit-linear-gradient(left, #0a093b 4%,#817FB2 100%); /* Chrome10-25,Safari5.1-6 */*/
+  /*background: linear-gradient(to right, #0a093b 4%,#817FB2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a093b', endColorstr='#817FB2',GradientType=1 ); /* IE6-9 */
+  background-color: #0A093B !important;
 }
 
 .container {
@@ -46,7 +48,7 @@ nav li a {
   padding: 25px 10px;
   display: block;
   text-decoration: none;
-  color: #B5D4CA;
+  color: #C9E4D8;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -87,20 +89,35 @@ body {
   border: 2px solid #0A093B;
 }
 
+/*.nottoowide {
+  text-align: center;
+  max-width: 1170px;
+}
+
+section.main-content.container {
+  max-width: 1170px;
+  text-align: center;
+  margin: 0 auto;
+}*/
+
 .column {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
+  /*text-align: center;*/
+  /*margin: 0 auto;*/
 }
 
 section.column {
     display: inline-block;
     margin: 0px auto;
     float: none;
+    /*text-align: center;*/
+    /*margin: 0 auto;*/
 }
 
 .column a {
-  color: #C2F5E5;
+  color: #C9E4D8;
   text-decoration: none;
 }
 
@@ -108,9 +125,10 @@ section.column {
   height: 237px;
   border-radius: 15px;
   border: 2px solid #0A093B;
-  width: 90%;
-  max-width: 90%;
+  /*width: 70%;*/
+  max-width: 284px;
   margin: 5px;
+  /*text-align: center;*/
 }
 
 .storeapp-img {
@@ -156,15 +174,24 @@ h4 {
 }
 
 #aboutme {
+  border-top: 2px solid #0A093B;
+  box-shadow: 2px 2px 2px #0A093B;
   width: 100%;
   background-color: #0A093B;
-  color: white;
+  /*background-color: #C9E4D8;*/
+  /*color: #0A093B;*/
+  color: #C9E4D8;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
-  padding: 30px 0;
+  padding: 50px 0;
 }
+
+/*#aboutme p {
+  text-align: center;
+  max-width: 1170px;
+}*/
 
 #resume {
   text-align: center;
@@ -173,7 +200,7 @@ h4 {
 
 #resume a {
   text-decoration: none;
-  color: #0A093B;
+  color: #C9E4D8;
   text-align: center;
 }
 
@@ -192,7 +219,9 @@ h4 {
   border: 2px solid #0A093B;
   padding: 20px;
   border-radius: 15px;
-  background-color: white;
+  /*background-color: #C9E4D8;*/
+  background-color: #0A093B;
+  color: #C9E4D8;
 }
 
 form {
