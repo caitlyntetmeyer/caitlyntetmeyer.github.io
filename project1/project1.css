@@ -26,12 +26,9 @@ h1 {
 	padding: 0;
 	margin: -0.1em 0 0 0;
 }
-/*h2.panel {
-	color: deeppink;
-	font-size: 2em;
-	padding: 0px;
-	margin: 0.5em 0 0.35em 0
-}*/
+h2 {
+	color: white !important;
+}
 p {
 	color: snow;
 	font-size: 16px;
@@ -91,6 +88,7 @@ header h1 {
 	margin: -.4em 0 0 1em;
 	letter-spacing: 0.02em;
 }*/
+
 /*Nav Bars*/
 nav {
 	color: black;
@@ -197,8 +195,9 @@ section#main img {
 	background-color: white;
 	border-radius: 7px;
 }
+
 button {
-	color: deeppink;
+	color: deeppink !important;
 	background-color: rgba(37, 3, 57, 0.7);
 	display: inline-block;
 	margin: 0.4em 0.75em 0 0;
@@ -208,13 +207,13 @@ button {
 	font-size: 0.8em;
 }
 button:hover {
-	color: white;
+	color: white !important;
 	background-color: rgba(255, 20, 147, 0.8);
 }
 section div.panel {
 	float: left;
 	position: relative;
-	width: 240px;
+	width: 30%;
 	/*height: 420px;*/
 	margin: 0 0.5em 2em 0.5em;
 	padding: 1em;
