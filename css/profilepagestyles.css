@@ -89,31 +89,31 @@ body {
   border: 2px solid #0A093B;
 }
 
-/*.nottoowide {
+.nottoowide {
   text-align: center;
-  max-width: 1170px;
+  margin: auto;
 }
 
 section.main-content.container {
   max-width: 1170px;
   text-align: center;
   margin: 0 auto;
-}*/
+}
 
 .column {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
-  /*text-align: center;*/
-  /*margin: 0 auto;*/
+  text-align: center;
+  margin: 0 auto;
 }
 
 section.column {
     display: inline-block;
     margin: 0px auto;
     float: none;
-    /*text-align: center;*/
-    /*margin: 0 auto;*/
+    text-align: center;
+    margin: 0 auto;
 }
 
 .column a {
@@ -127,8 +127,8 @@ section.column {
   border: 2px solid #0A093B;
   /*width: 70%;*/
   max-width: 284px;
-  margin: 5px;
-  /*text-align: center;*/
+  margin: 5px auto;
+  text-align: center;
 }
 
 .storeapp-img {
@@ -226,6 +226,8 @@ h4 {
 
 form {
   line-height: 20px;
+  /*width: 300px;*/
+  margin: auto;
 }
 
 form h3 {
