@@ -170,6 +170,9 @@ section#sidebar {
 section#sidebar h1 {
 	font-size: 34px;
 }
+section#sidebar h1 a {
+	color: deeppink !important;
+}
 section#sidebar p a {
 	color: deeppink;
 }
