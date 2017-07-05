@@ -6,8 +6,7 @@
     "caitlyn tetmeyer"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/caitlyntetmeyer/caitlyntetmeyer.github.io",
-  "private": true,
+  "homepage": "https://caitlyntetmeyer.github.io/project1/storeapp.html",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -19,6 +18,7 @@
     "angular-loader": "^1.5.8",
     "angular-ui-router": "^0.3.1",
     "bootstrap": "^3.3.7",
-    "angular-socket-io": "^0.7.0"
+    "angular-socket-io": "^0.7.0",
+    "jquery": "^3.2.1"
   }
 }
