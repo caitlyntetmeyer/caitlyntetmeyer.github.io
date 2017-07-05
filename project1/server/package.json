@@ -1,7 +1,7 @@
 {
-  "name": "workoutlogserver",
+  "name": "project1server",
   "version": "1.0.0",
-  "description": "server for workout log app",
+  "description": "server for bisexual store app",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

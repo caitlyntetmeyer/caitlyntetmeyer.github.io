@@ -1,10 +1,5 @@
-// Routing
-
 require('dotenv').config();
-
-// Import the express module:
 var express = require('express');
-
 var app = express();
 
 var bodyParser = require('body-parser');
@@ -83,12 +78,9 @@ app.use('/api/definition', require('./routes/definition'));
 app.use('/api/log', require('./routes/log'));
 
 app.use('/api/test', function(req, res) {
-	// When someone goes to localhost:3000/api/test...
 	res.send("Hello World");
-	// ...res.send takes the request and sends out above response to the DOM.
 });
 
-// Make the server start up when it is run on port 3000:
 app.listen(3000, function(){
 	console.log("App is listening on 3000.");
 });
