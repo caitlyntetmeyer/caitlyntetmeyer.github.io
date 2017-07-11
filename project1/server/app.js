@@ -1,13 +1,8 @@
 require('dotenv').config();
 var express = require('express');
 var app = express();
-
 var bodyParser = require('body-parser');
-
-// Import the server > db.js module:
 var sequelize = require('./db');
-
-// Import sequelize, as well as server > models > user.js:
 var User = sequelize.import('./models/user');
 
 // mongo setup:
@@ -15,36 +10,16 @@ var mongoose = require('mongoose');
 var mongodb = require('./db_mongo');
 var Account = require('./models_mongo/user')(mongoose);
 var Product = require('./models_mongo/products.js')(mongoose);
-
 mongoose.connect(mongodb.databaseUrl);
-// connects our db to our application
-// mongodb is a variable from above.
-
 mongoose.connection.on('connected', function(){
 	console.log('connected to db ' + mongodb.databaseUrl)
 })
-// "Once you've connected to the db, print the database URL." 
-
 // end mongo setup
 
 sequelize.sync();
-
-// Tell the application to use bodyParser:
 app.use(bodyParser.json());
-/*
-bodyParser will parse data off incoming requests and turn the data into
-JSON. bodyParser will take that JSON & expose it to be used for
-req.body.
-*/
-
-// Import middleware > headers.js:
 app.use(require('./middleware/headers'));
-
-// Import middleware > validate-session.js:
 app.use(require('./middleware/validate-session'));
-
-// Tell express to use routes > user.js as a route:
-// app.use('/api/user', require('./routes/user'));
 
 // Creating a user
 app.post('/api/user', function(req, res){

@@ -1,8 +1,8 @@
 var router = require('express').Router();
-var sequelize = require('../db');
-var Log = sequelize.import('../models/log');
-var User = sequelize.import('../models/user');
-var Definition = sequelize.import('../models/definition');
+// var sequelize = require('../db');
+// var Product = sequelize.import('../models/log');
+// var User = sequelize.import('../models/user');
+// var Definition = sequelize.import('../models/definition');
 
 router.post('/', function(req, res) {
 	// req has some body properties that have a username & pwd
@@ -12,7 +12,7 @@ router.post('/', function(req, res) {
 	var definition = req.body.log.def;
 
 	// Use our sequelize model to create user:
-	Log.create({
+	Product.create({
 			description: description,
 			result: result,
 			owner: user.id,
@@ -56,11 +56,11 @@ router.delete('/', function(req, res){
 	)
 })
 
-// Retrieve one workout specified by the log id:
+// Retrieve one product specified by the log id:
 router.get('/:id', function(req, res){
 	var dataID = req.params.id
 
-	Log.findOne({ where: {id: dataID} }).then(
+	Product.findOne({ where: {id: dataID} }).then(
 		function getSuccess(data){
 			res.json(data)
 		},
@@ -78,7 +78,7 @@ router.put('/', function(req, res){
 	var data = req.body.log.id;
 	var definition = req.body.log.def;
 
-	Log.update({
+	Product.update({
 		description: description,
 		result: result,
 		def: definition
