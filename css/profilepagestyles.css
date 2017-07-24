@@ -161,6 +161,12 @@ section.column {
   min-width: 255px;
 }
 
+.bucketlist-img {
+  background-image: url("../images/bucketlist.png");
+  background-size: cover;
+  min-width: 255px;
+}
+
 .container {
   max-width: 90%;
 }
