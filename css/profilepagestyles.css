@@ -167,6 +167,12 @@ section.column {
   min-width: 255px;
 }
 
+.workoutlog-img {
+  background-image: url("../images/workoutlog.png");
+  background-size: cover;
+  min-width: 255px;
+}
+
 .container {
   max-width: 90%;
 }
