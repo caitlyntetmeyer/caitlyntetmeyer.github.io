@@ -8,6 +8,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     background-color: #817FB2;
     /*text-align: center;*/
+    line-height: 20px;
 }
 
 nav {
@@ -143,8 +144,14 @@ section.column {
   min-width: 255px;
 }
 
+.resume-img {
+  background-image: url("../images/resume.png");
+  background-size: cover;
+  min-width: 255px;
+}
+
 .apichallenge-img {
-  background-image: url("../images/cnn-logo.png");
+  background-image: url("../images/cnn-logo.jpg");
   background-size: cover;
   min-width: 255px;
 }
@@ -196,8 +203,12 @@ h4 {
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
   padding: 50px 0;
+}
+
+#aboutme h3 {
+  text-align: center !important;
 }
 
 /*#aboutme p {
