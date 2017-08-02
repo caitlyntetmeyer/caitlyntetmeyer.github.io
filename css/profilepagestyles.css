@@ -95,8 +95,8 @@ body {
   margin: auto;
 }
 
-section.main-content.container {
-  max-width: 1170px;
+main-content {
+  max-width: 824px;
   text-align: center;
   margin: 0 auto;
 }
@@ -181,7 +181,7 @@ section.column {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 80%;
 }
 
 h3 {
@@ -215,6 +215,11 @@ h4 {
   text-align: center;
   max-width: 1170px;
 }*/
+
+.highly-motivated {
+  max-width: 1170px;
+  margin: 0 12%;
+}
 
 #resume {
   text-align: center;
@@ -307,16 +312,17 @@ img {
   }
 }
 
-@media screen and (min-width: 587px) {
+@media screen and (min-width: 844px) {
   .column {
-    width: 50%;
+    width: 40%;
   }
   #hero {
     background-size: 120%;
   }
 }
 
-@media screen and (min-width: 888px) {
+/* As you decrease the width of the view, here's where it goes down from 2 columns to 1 column: */
+@media screen and (min-width: 1048px) {
   .column {
     width: 33%;
   }
