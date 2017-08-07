@@ -180,16 +180,62 @@ section.column {
   min-width: 255px;
 }
 
+.coding-img {
+  background-image: url("../images/coding.jpg");
+  background-size: cover;
+  min-width: 255px;
+}
+
+.building-app-img {
+  background-image: url("../images/building-app.jpg");
+  background-size: cover;
+  min-width: 255px;
+}
+
+.acting-workshop-img {
+  background-image: url("../images/acting-workshop.jpg");
+  background-size: cover;
+  min-width: 255px;
+}
+
+.under-photo {
+  text-align: center;
+}
+
+/*
+.bsu-goodbye-img {
+  background-image: url("../images/bsu-goodbye.jpg");
+  background-size: cover;
+  min-width: 255px;
+}
+
+/*.photo-gallery {
+  max-height: 500px;
+  max-width: 500px;
+  object-fit: cover;
+}*/
+
+/*.esl-skits-img {
+  background-image: url("../images/esl-skits.jpg");
+  background-size: cover;
+  max-height: 500px;
+  width: auto;
+}*/
+
 .container {
   max-width: 80%;
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 h4 {
   font-size: 1.2em;
+}
+
+.volunteer {
+  font-size: 1.1em;
 }
 
 #aboutme {
