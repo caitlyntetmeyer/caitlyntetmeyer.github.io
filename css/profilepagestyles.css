@@ -20,11 +20,6 @@ nav {
   height: 70px;
   width: 100%;
   box-shadow: 0 1px 1px #817FB2;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a093b+4,a983e7+100 */
-  /*background: #0a093b; /* Old browsers */*/
-  /*background: -moz-linear-gradient(left, #0a093b 4%, #817FB2 100%); /* FF3.6-15 */*/
-  /*background: -webkit-linear-gradient(left, #0a093b 4%,#817FB2 100%); /* Chrome10-25,Safari5.1-6 */*/
-  /*background: linear-gradient(to right, #0a093b 4%,#817FB2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a093b', endColorstr='#817FB2',GradientType=1 ); /* IE6-9 */
   background-color: #0A093B !important;
 }
@@ -53,20 +48,8 @@ nav li a {
   font-family: 'Quicksand', sans-serif;
 }
 
-/*
-nav li a:hover {
-  background-color: white;
-  -webkit-transition: background .2s linear;
-  -moz-transition: background .2s linear;
-  -ms-transition: background .2s linear;
-  -o-transition: background .2s linear;
-  transition: background .2s linear;
-}
-*/
-
 body {
   padding-top: 65px;
-  /*color: #C2F5E5;*/
 }
 
 #hero {
@@ -79,7 +62,6 @@ body {
   padding-bottom: 10px;
   border-bottom: 1px solid #0A093B;
   background-repeat: no-repeat;
-  /*box-shadow: 0 1px 1px #0A093B;*/
 }
 
 .purple-blond-headshot {
@@ -198,6 +180,12 @@ section.column {
   min-width: 255px;
 }
 
+.iwritecode-img {
+  background-image: url("../images/iwritecode.jpg");
+  background-size: cover;
+  min-width: 255px;
+}
+
 .under-photo {
   text-align: center;
 }
@@ -243,8 +231,6 @@ h4 {
   box-shadow: 2px 2px 2px #0A093B;
   width: 100%;
   background-color: #0A093B;
-  /*background-color: #C9E4D8;*/
-  /*color: #0A093B;*/
   color: #C9E4D8;
   margin: 0 auto;
   margin-top: 30px;
@@ -263,8 +249,11 @@ h4 {
 }*/
 
 .highly-motivated {
-  max-width: 1170px;
-  margin: 0 12%;
+  text-align: left;
+  max-width: 1070px;
+  margin: auto;
+  /*margin: 0 12% 0 12%;*/
+  padding: 0 1em;
 }
 
 #resume {
