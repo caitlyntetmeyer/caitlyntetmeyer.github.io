@@ -5,8 +5,9 @@
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #817FB2;
+    padding-top: 65px;
+    font-family: 'Quicksand', sans-serif !important;
+    background-color: #817FB2 !important;
     /*text-align: center;*/
     line-height: 20px;
 }
@@ -15,7 +16,6 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background: #817FB2;
   border-bottom: 2px solid #0A093B;
   height: 70px;
   width: 100%;
@@ -24,10 +24,14 @@ nav {
   background-color: #0A093B !important;
 }
 
-.container {
+/*.container {
   max-width: 1024px;
   margin: 0 auto;
   text-align: center;
+}*/
+
+nav {
+  z-index: 1000;
 }
 
 nav ul {
@@ -48,13 +52,17 @@ nav li a {
   font-family: 'Quicksand', sans-serif;
 }
 
-body {
-  padding-top: 65px;
+h1 {
+  font-size: 2em !important;
+}
+
+h2 {
+  font-size: 1.5em !important;
 }
 
 #hero {
   background-image: url(../images/sky.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-position: 100% center;
   color: #0A093B;
   text-align: center;
@@ -99,8 +107,8 @@ section.column {
     margin: 0 auto;
 }
 
-.column a {
-  color: #C9E4D8;
+.col-xs-4 a {
+  color: #C9E4D8 !important;
   text-decoration: none;
 }
 
@@ -108,7 +116,6 @@ section.column {
   height: 237px;
   border-radius: 15px;
   border: 2px solid #0A093B;
-  /*width: 70%;*/
   max-width: 284px;
   margin: 5px auto;
   text-align: center;
@@ -272,9 +279,14 @@ h4 {
 }
 
 .center-social {
-  max-width: 300px;
+  /*max-width: 300px;*/
   text-align: center;
   margin: 0 auto;
+}
+
+form {
+  max-width: 230px;
+  text-align: left;
 }
 
 .form-inline {
@@ -282,15 +294,10 @@ h4 {
   border: 2px solid #0A093B;
   padding: 20px;
   border-radius: 15px;
-  /*background-color: #C9E4D8;*/
   background-color: #0A093B;
   color: #C9E4D8;
-}
-
-form {
+  margin: 0 auto;
   line-height: 20px;
-  /*width: 300px;*/
-  margin: auto;
 }
 
 form h3 {
@@ -330,68 +337,3 @@ footer li {
 img {
   max-width: 100%;
 }
-
-@media screen and (min-width: 300px) {
-  .column {
-    width: 90%;
-  }
-  #hero {
-    background-size: 180%;
-  }
-  nav {
-    height: 100px;
-    line-height: 0.1;
-  }
-  body {
-    padding-top: 100px;
-  }
-}
-
-@media screen and (min-width: 844px) {
-  .column {
-    width: 40%;
-  }
-  #hero {
-    background-size: 120%;
-  }
-}
-
-/* As you decrease the width of the view, here's where it goes down from 2 columns to 1 column: */
-@media screen and (min-width: 1048px) {
-  .column {
-    width: 33%;
-  }
-  #hero {
-    background-size: 100%;
-  }
-}
-
-@media print {
-	#header-image {
-		display: none;
-  }
-}
-
-/*
-@media screen and (min-width: 300px) {
-  .column {
-    width: 90%;
-  }
-}
-
-@media screen and (min-width: 661px) {
-  .column {
-    width: 40%;
-  }
-}
-
-@media screen and (min-width: 888px) {
-  .column {
-    width: 29%;
-  }
-}
-
-@media print {
-	#header-image {
-		display: none;
-*/
