@@ -34,9 +34,9 @@
 		<nav>
 			<div>
 				<ul>
-					<li><a href="https://cct-project1-client.herokuapp.com/" target="_blank">Bisexual Apparel App</a></li>
+					<li><a href="https://janies-garden-app.firebaseapp.com" target="_blank">Janie's Garden App</a></li>
 
-					<li><a href="https://cct-deployedbucketlist-client.herokuapp.com/signin" target="_blank">Bucket List App</a></li>
+					<li><a href="https://cct-project1-client.herokuapp.com/" target="_blank">Bisexual Apparel App</a></li>
 
 					<li><a href="https://tranquil-cliffs-20239.herokuapp.com/" target="_blank">CNN API App</a></li>
 
@@ -53,12 +53,23 @@
 	</section>
 
 	<!-- Main -->
-	<div class="nottoowide">
-		<section class="main-content clearfix">
+	<div class="flex-container">
+		<section class="plant-wrapper">
 			<div class="container">
 
+				<!-- Janie's Garden App -->
+				<section class="col-xs-4 plant-container">
+					<a href="https://janies-garden-app.firebaseapp.com" target="_blank">
+						<div class="column-img gardenapp-img">
+							<!-- picture of garden app is here -->
+						</div>
+						<h4>Janie's Garden App</h4>
+						<p>Track everything you've planted</p>
+					</a> 
+				</section> 
+
 				<!-- Bisexual Apparel App -->
-				<section class="col-xs-4">
+				<section class="col-xs-4 plant-container">
 					<a href="https://cct-project1-client.herokuapp.com/" target="_blank">
 						<div class="column-img storeapp-img">
 							<!-- picture of store app is here -->
@@ -69,7 +80,7 @@
 				</section> 
 
 				<!-- Bucket List App -->
-				<section class="col-xs-4">
+				<section class="col-xs-4 plant-container">
 					<a href="https://cct-deployedbucketlist-client.herokuapp.com/signin" target="_blank">
 						<div class="column-img bucketlist-img">
 							<!-- picture of Bucket List App here -->
@@ -80,7 +91,7 @@
 				</section> <!-- /Bucket List App -->
 
 				<!-- CNN API App -->
-				<section class="col-xs-4">
+				<section class="col-xs-4 plant-container">
 					<a href="https://tranquil-cliffs-20239.herokuapp.com/" target="_blank">
 						<div class="column-img apichallenge-img">
 							<!-- picture of CNN API App here -->
@@ -91,7 +102,7 @@
 				</section> <!-- /CNN API App -->
 
 				<!-- Book List -->
-				<section class="col-xs-4">
+				<section class="col-xs-4 plant-container">
 					<a href="http://gentle-reef-59488.herokuapp.com/" target="_blank">
 						<div class="column-img friendlist-img">
 							<!-- picture of Book List here -->
@@ -102,7 +113,7 @@
 				</section> <!-- /Book List -->
 
 				<!-- Workout Log App -->
-				<section class="col-xs-4">
+				<section class="col-xs-4 plant-container">
 					<a href="https://cct-workoutlog-client1.herokuapp.com/" target="_blank">
 						<div class="column-img workoutlog-img">
 							<!-- picture of Workout Log here -->
@@ -113,7 +124,7 @@
 				</section> <!-- /Workout Log App -->
 
 				<!-- Library -->
-				<section class="col-xs-4">
+				<section class="col-xs-4 plant-container">
 					<a href="https://github.com/caitlyntetmeyer/jsfundamentals" target="_blank">
 						<div class="column-img library-img">
 							<!-- picture of library here -->
@@ -124,7 +135,7 @@
 				</section> <!-- /Library -->		
 
 				<!-- CSS Monster -->
-				<section class="col-xs-4">
+				<section class="col-xs-4 plant-container">
 					<a href="https://codepen.io/caitlyntetmeyer/pen/MoYZoJ" target="_blank">
 						<div class="column-img monster-img">
 							<!-- picture of monster here -->
@@ -135,7 +146,7 @@
 				</section> <!-- /CSS Monster -->
 
 				<!-- Resume -->
-				<section class="col-xs-4">
+				<section class="col-xs-4 plant-container">
 					<a href="https://drive.google.com/file/d/0Bxj1vwSwgF7LMGQ4ZFltYlYwUGM/view?usp=sharing 
 					">
 					<div class="column-img resume-img">
@@ -240,9 +251,9 @@ method="POST" class="form-inline">
 	<div class="form-group">
 	<br />
 		<label for="exampleInputPassword1">Message</label>
-		<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Message">
+		<input rows="3" type="text" class="form-control" id="exampleInputPassword1" placeholder="Message">
 	</div>
-	
+	<br />
 </div>
 <br />
 <button type="submit" class="btn btn-default">Submit</button>

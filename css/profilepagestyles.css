@@ -1,9 +1,3 @@
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 body {
     padding-top: 65px;
     font-family: 'Quicksand', sans-serif !important;
@@ -24,10 +18,42 @@ nav {
   background-color: #0A093B !important;
 }
 
-/*.container {
-  max-width: 1024px;
-  margin: 0 auto;
+.flex-container {
+  max-width: 824px;
   text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.plant-wrapper {
+  flex: 1 0 100%;
+  padding: 2rem;
+  position: relative;
+}
+
+.plant-container {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  padding: 1.5em;
+  border-radius: 1em;
+  height: 100%;
+  max-width: auto;
+  background-color: snow;
+}
+
+/*.plant-container img{
+  max-width: calc(100% - 3em);
+  max-height: 200px;
+}*/
+/*.info {
+  height: calc(100% - 35px);
+}
+
+.btns {
+  height: 35px;
 }*/
 
 nav {
@@ -80,17 +106,6 @@ h2 {
   border: 2px solid #0A093B;
 }
 
-.nottoowide {
-  text-align: center;
-  margin: auto;
-}
-
-main-content {
-  max-width: 824px;
-  text-align: center;
-  margin: 0 auto;
-}
-
 .column {
   width: 100%;
   padding: 10px;
@@ -119,6 +134,12 @@ section.column {
   max-width: 284px;
   margin: 5px auto;
   text-align: center;
+}
+
+.gardenapp-img {
+  background-image: url("../images/gardenapp.png");
+  background-size: cover;
+  min-width: 255px;
 }
 
 .storeapp-img {
@@ -217,9 +238,9 @@ section.column {
   width: auto;
 }*/
 
-.container {
+/*.container {
   max-width: 80%;
-}
+}*/
 
 h3 {
   font-size: 1.5em;
@@ -305,8 +326,8 @@ form h3 {
 }
 
 footer {
-  margin: 50px;
-  padding: 40px;
+  margin: 0px;
+  padding: 0px;
   text-align: center;
   padding-bottom: 15px;
 }
