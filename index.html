@@ -38,8 +38,6 @@
 
 					<li><a href="https://cct-project1-client.herokuapp.com/" target="_blank">Bisexual Apparel App</a></li>
 
-					<li><a href="https://tranquil-cliffs-20239.herokuapp.com/" target="_blank">CNN API App</a></li>
-
 				</ul>
 			</div> <!-- /.container -->
 		</nav>
@@ -54,11 +52,12 @@
 
 	<!-- Main -->
 	<div class="flex-container">
-		<section class="plant-wrapper">
-			<div class="container">
+		<div class="img-wrapper">
+			<!-- <div class="container"> -->
 
+			<div class="row">
 				<!-- Janie's Garden App -->
-				<section class="col-xs-4 plant-container">
+				<div class="img-container">
 					<a href="https://janies-garden-app.firebaseapp.com" target="_blank">
 						<div class="column-img gardenapp-img">
 							<!-- picture of garden app is here -->
@@ -66,10 +65,10 @@
 						<h4>Janie's Garden App</h4>
 						<p>Track everything you've planted</p>
 					</a> 
-				</section> 
+				</div> 
 
 				<!-- Bisexual Apparel App -->
-				<section class="col-xs-4 plant-container">
+				<div class="img-container">
 					<a href="https://cct-project1-client.herokuapp.com/" target="_blank">
 						<div class="column-img storeapp-img">
 							<!-- picture of store app is here -->
@@ -77,10 +76,10 @@
 						<h4>Bisexual Apparel App</h4>
 						<p>Keep inventory of apparel</p>
 					</a> 
-				</section> 
+				</div> 
 
 				<!-- Bucket List App -->
-				<section class="col-xs-4 plant-container">
+				<section class="img-container">
 					<a href="https://cct-deployedbucketlist-client.herokuapp.com/signin" target="_blank">
 						<div class="column-img bucketlist-img">
 							<!-- picture of Bucket List App here -->
@@ -89,9 +88,11 @@
 						<p>Make your life's bucket list</p>
 					</a>
 				</section> <!-- /Bucket List App -->
+			</div>
 
+			<div class="row">
 				<!-- CNN API App -->
-				<section class="col-xs-4 plant-container">
+				<section class="img-container">
 					<a href="https://tranquil-cliffs-20239.herokuapp.com/" target="_blank">
 						<div class="column-img apichallenge-img">
 							<!-- picture of CNN API App here -->
@@ -102,7 +103,7 @@
 				</section> <!-- /CNN API App -->
 
 				<!-- Book List -->
-				<section class="col-xs-4 plant-container">
+				<section class="img-container">
 					<a href="http://gentle-reef-59488.herokuapp.com/" target="_blank">
 						<div class="column-img friendlist-img">
 							<!-- picture of Book List here -->
@@ -113,7 +114,7 @@
 				</section> <!-- /Book List -->
 
 				<!-- Workout Log App -->
-				<section class="col-xs-4 plant-container">
+				<section class="img-container">
 					<a href="https://cct-workoutlog-client1.herokuapp.com/" target="_blank">
 						<div class="column-img workoutlog-img">
 							<!-- picture of Workout Log here -->
@@ -123,8 +124,11 @@
 					</a>
 				</section> <!-- /Workout Log App -->
 
+			</div>
+
+			<div class="row">
 				<!-- Library -->
-				<section class="col-xs-4 plant-container">
+				<section class="img-container">
 					<a href="https://github.com/caitlyntetmeyer/jsfundamentals" target="_blank">
 						<div class="column-img library-img">
 							<!-- picture of library here -->
@@ -135,7 +139,7 @@
 				</section> <!-- /Library -->		
 
 				<!-- CSS Monster -->
-				<section class="col-xs-4 plant-container">
+				<section class="img-container">
 					<a href="https://codepen.io/caitlyntetmeyer/pen/MoYZoJ" target="_blank">
 						<div class="column-img monster-img">
 							<!-- picture of monster here -->
@@ -146,7 +150,7 @@
 				</section> <!-- /CSS Monster -->
 
 				<!-- Resume -->
-				<section class="col-xs-4 plant-container">
+				<div class="img-container">
 					<a href="https://drive.google.com/file/d/0Bxj1vwSwgF7LMGQ4ZFltYlYwUGM/view?usp=sharing 
 					">
 					<div class="column-img resume-img">
@@ -155,11 +159,10 @@
 					<h4>Resume</h4>
 					<p>I am available for employment</p>
 				</a>
-			</section> <!-- /Resume -->
-
-		</div> <!-- /.container -->
-	</section> <!-- /main-content clearfix -->
-</div> <!-- /.nottoowide -->
+			</div> <!-- /Resume -->
+		</div>
+	</div> 
+</div>
 
 <!-- About Me Section -->
 <div id="aboutme">
@@ -243,20 +246,20 @@ method="POST" class="form-inline">
 	</div>
 	
 	<div class="form-group">
-	<br />
+		<br />
 		<label for="exampleInputPassword1">Email</label>
 		<input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
 	</div>
 	
 	<div class="form-group">
-	<br />
+		<br />
 		<label for="exampleInputPassword1">Message</label>
 		<input rows="3" type="text" class="form-control" id="exampleInputPassword1" placeholder="Message">
 	</div>
 	<br />
-</div>
-<br />
-<button type="submit" class="btn btn-default">Submit</button>
+
+	<br />
+	<button type="submit" class="btn btn-default">Submit</button>
 </form>
 
 <div class="center-social">
@@ -283,7 +286,7 @@ method="POST" class="form-inline">
 			</li>
 		</ul>
 	</footer>
-</div> <!-- /.center-social -->
+</div>
 <script
 src="https://code.jquery.com/jquery-3.2.1.min.js"
 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
