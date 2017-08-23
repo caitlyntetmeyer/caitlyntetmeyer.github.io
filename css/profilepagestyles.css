@@ -303,6 +303,29 @@ form h3 {
   font-size: 1.3em;
 }
 
+input {
+  border-radius: 0.25em;
+  height: 20px;
+  max-width: 100%;
+}
+
+.btn {
+  background-color: white;
+  color: #0A093B;
+  padding: 5px 5px 23px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0A093B !important;
+  color: white !important;
+}
+
 footer {
   margin: 50px;
   padding: 40px;
