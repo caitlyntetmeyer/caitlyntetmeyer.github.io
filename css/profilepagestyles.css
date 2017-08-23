@@ -114,6 +114,12 @@ section.column {
   text-align: center;
 }
 
+.gardenapp-img {
+  background-image: url("../images/gardenapp.png");
+  background-size: cover;
+  min-width: 255px;
+}
+
 .storeapp-img {
   background-image: url("../images/storeapp.png");
   background-size: cover;
